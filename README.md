@@ -19,8 +19,8 @@ Instalasi
 - composer install
 - buat database baru di MySQL
 - isi configurasi database di file .env
-- lakukan migrate dengan perintah : vendor/bin/phinx migrate -e development
-- jalankan seeder dengan perintah : vendor/bin/phinx seed:run
+- lakukan migrate dengan perintah di terminal/cli: vendor/bin/phinx migrate -e development
+- jalankan seeder dengan perintah di terminal/cli : vendor/bin/phinx seed:run
 
 Penggunaan
 
@@ -34,4 +34,10 @@ berikut endpoint yang tersedia :
 - POST = http://localhost/folder-projek/transaction :insert data transaction body seperti pada gambar
 - ![alt text](https://github.com/luqni/rest-api-php/blob/main/api_create_transaction.png)
 
+Menjalankan update status di CLI
+- Perintah untuk mengupdate status : php transaction-cli.php
+- Masukkan references ID, sistem akan mengecek apakah data tersedia atau tidak jika tersedia.
+- Masukkan Status (Paid/Failed)
+- ![alt text](https://github.com/luqni/rest-api-php/blob/main/transaction-cli.png)
 
+By : Muhammad Luqni Baehaqi
