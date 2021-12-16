@@ -28,7 +28,7 @@ Penggunaan
 berikut endpoint yang tersedia :
 
 - GET = http://localhost/folder-projek/transaction : menampilkan list data transaction
-- ![alt text](https://github.com/luqni/rest-api-php/blob/master/api_getAll.png)
+- ![alt text](https://github.com/luqni/rest-api-php/blob/main/api_getAll.png)
 - GET = http://localhost/folder-projek/transaction?references_id=9&merchant_id=1 : pengecekan data berdasarkan parameter referenes_id dan merchant_id
 - POST = http://localhost/folder-projek/transaction :insert data transaction body seperti pada gambar
 
