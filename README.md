@@ -13,7 +13,7 @@ Menggunakan
 
 Instalasi
 
-- clone project :
+- clone project dengan cara : clone https://github.com/luqni/rest-api-php.git
 - pindahkan folder projek ke folder htdocs XAMPP/LAMPP
 - buka terminal
 - composer install
@@ -30,6 +30,8 @@ berikut endpoint yang tersedia :
 - GET = http://localhost/folder-projek/transaction : menampilkan list data transaction
 - ![alt text](https://github.com/luqni/rest-api-php/blob/main/api_getAll.png)
 - GET = http://localhost/folder-projek/transaction?references_id=9&merchant_id=1 : pengecekan data berdasarkan parameter referenes_id dan merchant_id
+- ![alt text](https://github.com/luqni/rest-api-php/blob/main/api_check_status.png)
 - POST = http://localhost/folder-projek/transaction :insert data transaction body seperti pada gambar
+- ![alt text](https://github.com/luqni/rest-api-php/blob/main/api_create_transaction.png)
 
 
